@@ -4,10 +4,10 @@ import {useState, useRef} from 'react'
 
 
 const Ex04useRef = () => {
-
+  const [inputText, setInputText] = useState();
+  const inputRef = useRef();
   const btnClick = () =>{
-    const [inputText, setInputText] = useState();
-    const inputRef = useRef();
+    
 
 
       // 1. input태그에 적은값 가져오기
