@@ -5,6 +5,7 @@ import './App.css'
 import Home from './component/Home'
 import Login from './component/Login'
 import Join from './component/join'
+import About from './component/About'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 
 //Router : 주소값에 따라 다른 컴포넌트를 출력하는 방법
@@ -21,6 +22,8 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/Login' element={<Login></Login>}></Route>   
         <Route path='/Join' element={<Join></Join>}></Route>   
+        <Route path='/About' element={<About></About>}></Route>   
+        <Route path='/Home' element={<Home></Home>}></Route>   
       </Routes>
     </BrowserRouter>
     </>
